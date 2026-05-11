@@ -13,7 +13,7 @@ import Cookies from 'js-cookie'
 
 import './index.css'
 
-import AppTheme from '../../context/Theme'
+import AppTheme from '../../context/AppTheme'
 
 import {
   HeaderContainer,

@@ -16,7 +16,7 @@ import {
   IconParas,
 } from './styledComponents'
 
-import AppTheme from '../../context/Theme'
+import AppTheme from '../../context/AppTheme'
 
 import './index.css'
 

@@ -1,5 +1,5 @@
 import AppTheme from '../../context/AppTheme'
-import {DivElememt, ImageElement} from './styledComponents'
+import {DivElement, ImageElement} from './styledComponents'
 
 const NotFound = () => (
   <AppTheme.Consumer>
@@ -8,7 +8,7 @@ const NotFound = () => (
       const bgColor = activeTheme === light ? '#ffffff' : '#000000'
       const color = activeTheme === light ? '#000000' : '#ffffff'
       return (
-        <DivElememt bgColor={bgColor} color={color}>
+        <DivElement bgColor={bgColor} color={color}>
           {activeTheme === 'light' ? (
             <>
               <ImageElement src="https://assets.ccbp.in/frontend/react-js/nxt-watch-not-found-light-theme-img.png" />
@@ -20,7 +20,7 @@ const NotFound = () => (
           )}
           <h1>Page Not Found</h1>
           <p>We are sorry,the page you requested could not be found.</p>
-        </DivElememt>
+        </DivElement>
       )
     }}
   </AppTheme.Consumer>

@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 import {Component} from 'react'
 
 // import ContactUs from '../ContactUs'
-import AppTheme from '../../context/Theme'
+import AppTheme from '../../context/AppTheme'
 import {
   DivContainer,
   ListContainer,

@@ -1,6 +1,6 @@
-import {ErrorContainer, Para, Head, Button, ErrorImg} from './styledComponent'
+import {ErrorContainer, Para, Head, Button, ErrorImg} from './styledComponents'
 
-import AppTheme from '../../context/Theme'
+import AppTheme from '../../context/AppTheme'
 
 const ErrorImage = props => (
   <AppTheme.Consumer>

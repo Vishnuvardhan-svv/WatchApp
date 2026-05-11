@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
-export const ImageEl = styled.img`
+export const ImageElement = styled.img`
   width: 90%;
   @media (min-width: 768px) {
     width: 40%;
   }
 `
-export const DivEl = styled.div`
+export const DivElement = styled.div`
   height: 100%;
   background-color: ${props => props.bgColor};
   color: ${props => props.color};

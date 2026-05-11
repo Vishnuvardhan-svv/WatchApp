@@ -4,7 +4,7 @@ import Cookies from 'js-cookie'
 
 import {MdPlaylistAdd} from 'react-icons/md'
 
-import AppTheme from '../../context/Theme'
+import AppTheme from '../../context/AppTheme'
 
 import {
   SavedVideosMainDiv,

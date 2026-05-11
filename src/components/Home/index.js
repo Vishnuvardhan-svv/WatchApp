@@ -6,7 +6,7 @@ import LoaderComp from '../Loader'
 
 import './index.css'
 
-import AppTheme from '../../context/Theme'
+import AppTheme from '../../context/AppTheme'
 
 import ErrorImage from '../ErrorImage'
 
